@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 const content = fs.readFileSync(
-    path.resolve(__dirname, "docx/input/input.docx"),
+    path.resolve(__dirname, "docx/input/input (1).docx"),
     "binary"
 );
 
@@ -17,10 +17,10 @@ const doc = new Docxtemplater(zip, {
 });
 
 doc.render({
-    first_name: "Rogerio ",
-    last_name: "Alencar Filho",
+    first_name: "Rogerio",
+    last_name: "Alencar Filho ",
     phone: "+55 (81) 12342-2344",
-    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
 });
 
 const buf = doc.getZip().generate({
