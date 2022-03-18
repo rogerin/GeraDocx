@@ -1,0 +1,11 @@
+.container {
+  margin-top: 60px;
+}
+
+#customFile .custom-file-control:lang(en)::after {
+  content: "Selecionar Arquivo para Upload..";
+}
+
+#customFile .custom-file-control:lang(en)::before {
+  content: " ";
+}
