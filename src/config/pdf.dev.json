@@ -1,0 +1,4 @@
+{
+    "baseURL": "https://sesuitet.pedrasdefogo.pb.gov.br/apigateway/v1/dataset-integration",
+    "Authorization": "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDcwMjI0MDUsImV4cCI6MTc2NzIyNTU0MCwiaWRsb2dpbiI6ImFwaS5zZXN1aXRlIiwicmF0ZWxpbWl0IjoxMjAsInF1b3RhbGltaXQiOjEwMDAwMH0.Pf063X_KKgxKZC2fBWD_1veleYwomjSWcRkqLCS6xW0"
+}
